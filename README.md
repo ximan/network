@@ -1,7 +1,7 @@
 # 移动端网络环境判断
 
 ![扫一扫](code.png)
-[DEMO链接](http://ons.me/wp-content/uploads/2014/09/swipeSlide/index.html)
+[DEMO链接](http://ximan.github.io/network/)
 
 ## 简介
 
