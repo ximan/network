@@ -12,7 +12,8 @@
     if(/MicroMessenger/.test(ua)){
         // 如果是微信6.0以上版本，用UA来判断
         if(/NetType/.test(ua)){
-            if(ua.match(/NetType\/(\S*)$/)[1] != 'WIFI'){
+            var result = ua.match(/NetType\/(\S)+/)[0].replace('NetType/','');
+            if(result && result != 'WIFI'){
                 wifi = false;
             }
         // 如果是微信6.0以下版本，调用微信私有接口WeixinJSBridge

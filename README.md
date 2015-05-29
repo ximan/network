@@ -1,4 +1,4 @@
-# 移动端网络环境判断
+# 移动端网络连接判断
 
 ![扫一扫](code.png)
 [DEMO链接](http://ximan.github.io/network/)
